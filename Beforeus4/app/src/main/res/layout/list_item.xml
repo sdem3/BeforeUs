@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+    <ImageView
+        android:id="@+id/palaceImage"
+        android:layout_width="160dp"
+        android:layout_height="95dp"
+        android:src="@drawable/test"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/palaceTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ТОЦ Самсунг"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/palaceCoord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="37.040487,39.125454" />
+
+        <TextView
+            android:id="@+id/palaceDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="400м" />
+
+    </LinearLayout>
+</LinearLayout>
